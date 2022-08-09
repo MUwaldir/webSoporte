@@ -18,3 +18,10 @@ menuBtn.addEventListener('click', function(){
    /*  menuBox.classList.add('activarMenu'); */
    menuBox.classList.toggle('activarMenu')
 })
+
+
+/* boton footer */
+const btnFooter = document.querySelector('.footer__inferior__btn');
+btnFooter.addEventListener('click', function(){
+    window.scrollTo(0,0)
+})
