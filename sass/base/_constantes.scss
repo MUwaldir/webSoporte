@@ -1,0 +1,306 @@
+$font-poppin: 'Poppins', sans-serif;
+$font-inter: 'Inter' , sans-serif;
+
+$color-base:#1268fb;
+$color-base-light:#007aff;
+/* clases constantes */
+
+.titulo-n2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $font-inter;
+    font-size: 3rem;
+
+}
+.line-n2-black{
+    background-color:rgba(black, .7);
+    height: .4rem;
+    width: 10rem;
+    position: relative;
+    i{
+        position: absolute;
+        color: rgba(black, 0.7);
+        font-size: 2rem;
+        background-color: white;
+        left: 50%;
+        transform: translate(-50%);
+        bottom: -8px;
+        padding: 0 .4rem;
+    }
+}
+.btn{
+    background-color: $color-base;
+    font-family: $font-inter;
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: 1rem 2.5rem;
+    border-radius: .5rem;
+    i{
+        margin-left: 1rem;
+    }
+}
+.btn-base{
+    background-color: $color-base;
+    color: white;
+    transition: all .3s;
+    &:hover{
+        background-color: $color-base-light;
+        transition: all .3s;
+    }
+}
+.centrar-bloque{
+ margin-left: auto;
+ margin-right: auto;   
+}
+//max de 1920 px
+
+.contenedor-max{
+    max-width: 192rem;
+}
+
+//max de 1200px
+.contenedor-medium{
+    max-width: 120rem;
+    @media only screen and (max-width:$bp-large ) {
+        max-width: 72rem;
+        
+    }
+    @media only screen and (max-width:$bp-medium ) {
+        max-width: 54rem;
+        
+    }
+    @media only screen and (max-width:$bp-small ) {
+        max-width: 0 2rem;
+        
+    }
+}
+//background
+.bg-base{
+    background-color: $color-base;
+}
+
+
+//MARGENES CONSTANTES
+//margin top
+.mt-1{
+    margin-top:1rem;
+}
+.mt-2{
+    margin-top:2rem;
+}
+.mt-3{
+    margin-top:3rem;
+}
+.mt-4{
+    margin-top:4rem;
+}
+.mt-5{
+    margin-top:5rem;
+}
+.mt-6{
+    margin-top:6rem;
+}
+.mt-7{
+    margin-top:7rem;
+}
+.mt-8{
+    margin-top:8rem;
+}
+.mt-9{
+    margin-top:9rem;
+}
+.mt-10{
+    margin-top:10rem;
+}
+//margin botton
+.mb-1{
+    margin-bottom:1rem;
+}
+.mb-2{
+    margin-bottom:2rem;
+}
+.mb-3{
+    margin-bottom:3rem;
+}
+.mb-4{
+    margin-bottom:4rem;
+}
+.mb-5{
+    margin-bottom:5rem;
+}
+.mb-6{
+    margin-bottom:6rem;
+}
+.mb-7{
+    margin-bottom:7rem;
+}
+.mb-8{
+    margin-bottom:8rem;
+}
+.mb-9{
+    margin-bottom:9rem;
+}
+.mb-10{
+    margin-bottom:10rem;
+}
+//padings top
+
+.pt-1{
+    padding-top: 1rem;
+}
+.pt-2{
+    padding-top: 2rem;
+}
+.pt-3{
+    padding-top: 3rem;
+}
+.pt-4{
+    padding-top: 4rem;
+}
+.pt-5{
+    padding-top: 5rem;
+}
+
+.pt-6{
+    padding-top: 6rem;
+}
+.pt-7{
+    padding-top: 7rem;
+}
+.pt-8{
+    padding-top: 8rem;
+}
+.pt-9{
+    padding-top: 9rem;
+}
+
+.pt-10{
+    padding-top: 10rem;
+}
+.pt-11{
+    padding-top: 11rem;
+}
+.pt-12{
+    padding-top: 12rem;
+}
+
+//paddings boton
+
+.pb-1{
+    padding-bottom: 1rem;
+}
+.pb-2{
+    padding-bottom: 2rem;
+}
+.pb-3{
+    padding-bottom: 3rem;
+}
+.pb-4{
+    padding-bottom: 4rem;
+}
+.pb-5{
+    padding-bottom: 5rem;
+}
+
+.pb-6{
+    padding-bottom: 6rem;
+}
+.pb-7{
+    padding-bottom: 7rem;
+}
+.pb-8{
+    padding-bottom: 8rem;
+}
+.pb-9{
+    padding-bottom: 9rem;
+}
+
+.pb-10{
+    padding-bottom: 10rem;
+}
+.pb-11{
+    padding-bottom: 11rem;
+}
+.pb-12{
+    padding-bottom: 12rem;
+}
+//paddings left
+
+.pl-1{
+    padding-left: 1rem;
+}
+.pl-2{
+    padding-left: 2rem;
+}
+.pl-3{
+    padding-left: 3rem;
+}
+.pl-4{
+    padding-left: 4rem;
+}
+.pl-5{
+    padding-left: 5rem;
+}
+
+.pl-6{
+    padding-left: 6rem;
+}
+.pl-7{
+    padding-left: 7rem;
+}
+.pl-8{
+    padding-left: 8rem;
+}
+.pl-9{
+    padding-left: 9rem;
+}
+
+.pl-10{
+    padding-left: 10rem;
+}
+.pl-11{
+    padding-left: 11rem;
+}
+.pl-12{
+    padding-left: 12rem;
+}
+//paddings right
+
+.pr-1{
+    padding-right: 1rem;
+}
+.pr-2{
+    padding-right: 2rem;
+}
+.pr-3{
+    padding-right: 3rem;
+}
+.pr-4{
+    padding-right: 4rem;
+}
+.pr-5{
+    padding-right: 5rem;
+}
+
+.pr-6{
+    padding-right: 6rem;
+}
+.pr-7{
+    padding-right: 7rem;
+}
+.pr-8{
+    padding-right: 8rem;
+}
+.pr-9{
+    padding-right: 9rem;
+}
+
+.pr-10{
+    padding-right: 10rem;
+}
+.pr-11{
+    padding-right: 11rem;
+}
+.pr-12{
+    padding-right: 12rem;
+}

@@ -1,0 +1,184 @@
+.footer {
+    background-color: $color-base;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: $font-poppin;
+    color: white;
+    @media only screen and  (max-width:$bp-medium) {
+        padding-left:  10%;
+        padding-right: 10%;
+    }
+    h2{
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    li , p{
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    
+    &__superior{
+        
+        display: flex;
+        flex-wrap: wrap;
+        height: 80%;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        @media only screen and  (max-width:$bp-medium) {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 4rem;
+            text-align: center;
+            
+        }
+
+        
+        &__izquierdo{
+            width: 20%;
+            @media only screen and  (max-width:$bp-medium) {
+                padding-bottom: 2rem;
+            }
+            &--h2{
+                padding-bottom: 2rem;
+            }
+    
+        }
+        &__centro{
+            width: 40%;
+            &__container{
+                padding-left: 20%;
+                @media only screen and  (max-width:$bp-medium) {
+                padding-left: 0;
+                }
+                
+                &--h2{
+                    padding-bottom: 2rem;
+                }
+                &__ul{
+                    &--li{
+                        padding-bottom: 1rem;
+                    }
+                }
+            }
+            /* @media only screen and  (max-width:$bp-medium) {
+                
+            } */
+        }
+        &__derecho{
+            width: 40%;
+            display: flex;
+            justify-content: end;
+            @media only screen and  (max-width:$bp-medium) {
+                display: block;
+                padding-bottom: 2rem;
+                width: 100%;
+                
+            }
+            &__container--img{
+                padding-bottom: 2rem;
+            }
+            &__container--parrafo{
+                display: flex;
+                flex-direction: column;
+                @media only screen and  (max-width:$bp-medium) {
+                    display: block;
+                }
+            }
+            
+            img{
+                box-sizing: border-box;
+                @media only screen and  (max-width:$bp-medium) {
+                margin-left: auto;
+                margin-right: auto;
+                }
+            }
+            }
+        
+            
+            
+    }
+    
+    &__inferior{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding-bottom: 2rem;
+        @media only screen and  (max-width:$bp-medium) {
+            flex-direction: column-reverse;
+            
+            &__txt{
+                padding-top: 2rem;
+                padding-bottom: 3rem;
+                &__ul{
+                    justify-content: center;
+                    &--li{
+                        span{
+                            display: none;
+                        }
+                    }
+                }
+            }
+            
+        }
+        &__txt{
+            width: 95%;
+            &__ul{
+                display: flex;
+                
+                &--li{
+                    &:not(:last-child){
+                        border-right: .1rem solid rgb(255, 255, 255);
+                        padding-right: .5rem;
+                    }
+                    &:not(:first-child){
+                        padding-left: .5rem;
+                    }
+                    
+                    
+                    
+                }
+            }
+            .wordpres{
+                display: none;
+            }
+            @media only screen and  (max-width:$bp-medium) {
+                
+                .wordpres{
+                    display: block;
+                    text-align: center;
+                }
+            }
+        }
+        
+        &__btn{
+            width: 4rem;
+            height: 4rem;
+            background-color: white;
+            position: relative;
+            display: flex;
+            border-radius: .5rem;
+            cursor: pointer;
+            
+            &--linea{
+                position: absolute;
+                right: 45%;
+                width: 1rem;
+                background-color:black;
+                height: .2rem;
+                transform: rotate(-45deg);
+                top: 50%;
+            }
+            &--lineb{
+                position: absolute;
+                left: 45%;
+                width: 1rem;
+                background-color:black;
+                height: .2rem;
+                transform: rotate(45deg);
+                top: 50%;
+            }
+        }
+    }
+
+}

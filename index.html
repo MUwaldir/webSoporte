@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web soporte</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/estyle.css" />
+  </head>
+  <body>
+    <nav class="menu">
+      <div class="menu__container centrar-bloque contenedor-max">
+        <img
+          src="images/logo.png"
+          alt="logo soporte tecnico"
+          class="menu__container--img"
+        />
+        <ul class="menu__container__menuBox">
+          <!-- li.menu__container__menuBox*5>a.menu__container__menuBox__item--link -->
+          <li class="menu__container__menuBox__item">
+            <a href="#home" class="menu__container__menuBox__item--link active"
+              >Home
+            </a>
+          </li>
+          <li class="menu__container__menuBox__item">
+            <a href="#about" class="menu__container__menuBox__item--link">
+              About us</a
+            >
+          </li>
+          <li class="menu__container__menuBox__item">
+            <a href="#servicios" class="menu__container__menuBox__item--link"
+              >Services</a
+            >
+          </li>
+          <li class="menu__container__menuBox__item">
+            <a href="#" class="menu__container__menuBox__item--link">FAQ </a>
+          </li>
+          <li class="menu__container__menuBox__item">
+            <a href="#contact" class="menu__container__menuBox__item--link"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <div class="menu__container__btnbox">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+    <section class="sectionHead" id="home">
+      <aside class="sectionHead__aside">
+        <img
+          src="images/itservice6-slider-pic2.svg"
+          alt=""
+          class="sectionHead__aside--img"
+        />
+        <section class="sectionHead__aside__col">
+          <p class="sectionHead__aside__col--exp">15 años de experiencia</p>
+          <h1 class="mt-3">Reparacion de PC & Servicios TI</h1>
+          <p class="sectionHead__aside__col--descri mt-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+            porro distinctio?
+          </p>
+          <a href="" class="sectionHead__aside__col--btn btn btn-base mt-6"
+            >Leer mas<i class="fa-solid fa-arrow-right-long"></i
+          ></a>
+        </section>
+      </aside>
+
+      <article class="sectionHead__article">
+        <img src="images/itservice6-slider-pic1.png" alt="Soporte" />
+        <p class="sectionHead__article--soporte">
+          <span> Soporte 24/7 </span>
+          <span> +51 9845343 </span>
+          <!--span es  tipo inline -->
+        </p>
+        <div class="sectionHead__article__caja">
+          <p class="sectionHead__article__caja--apple">
+            <i class="fa-brands fa-apple"></i>
+            <span>Damos soporte a equipos apple</span>
+          </p>
+          <p class="sectionHead__article__caja--time">
+            <i class="fa-solid fa-stopwatch"></i>
+            <span>culminado en 24 horas</span>
+          </p>
+        </div>
+      </article>
+    </section>
+    <section class="servicios pt-12 pb-12 bg-base" id="about">
+      <div class="servicios__container contenedor-medium centrar-bloque">
+        <article class="servicios__container__item">
+          <h2 class="pl-4 pr-4">
+            hardware<br />
+            repair
+          </h2>
+          <p class="pl-4 pr-4 mt-2">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut,
+            distinctio vitae!
+          </p>
+          <span class="mt-8 pl-4 mb-3"
+            ><i class="fa-solid fa-arrow-right"></i
+          ></span>
+          <div>
+            <img src="images/itservice6-wrap-bg2.png" alt="hardware" />
+          </div>
+        </article>
+        <article class="servicios__container__item">
+          <h2 class="pl-4 pr-4">
+            hardware<br />
+            repair
+          </h2>
+          <p class="pl-4 pr-4 mt-2">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut,
+            distinctio vitae!
+          </p>
+          <span class="mt-8 pl-4 mb-3"
+            ><i class="fa-solid fa-arrow-right"></i
+          ></span>
+          <div>
+            <img src="images/itservice6-wrap-bg3.png" alt="hardware" />
+          </div>
+        </article>
+        <article class="servicios__container__item">
+          <h2 class="pl-4 pr-4">
+            hardware<br />
+            repair
+          </h2>
+          <p class="pl-4 pr-4 mt-2">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut,
+            distinctio vitae!
+          </p>
+          <span class="mt-8 pl-4 mb-3"
+            ><i class="fa-solid fa-arrow-right"></i
+          ></span>
+          <div>
+            <img src="images/itservice6-wrap-bg1.png" alt="hardware" />
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="serviciosFull pt-12 pb-12" id="servicios">
+      <div class="serviciosFull_container contenedor-medium centrar-bloque">
+        <h2 class="serviciosFull_container--titulo titulo-n2">servicios</h2>
+
+        <div
+          class="serviciosFull_container--linea line-n2-black centrar-bloque mt-2"
+        >
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="serviciosFull_container__box mt-5">
+          <article class="serviciosFull_container__box__item">
+            <img
+              class="serviciosFull_container__box__item--img"
+              src="images/servicios/extras/itservice6-service-pic2.png"
+              alt=""
+            />
+            <div class="serviciosFull_container__box__item__boxmedium">
+              <div
+                class="serviciosFull_container__box__item__boxmedium__imgBox"
+              >
+                <img src="images/servicios/extras/itservice6-num1.svg" alt="" />
+              </div>
+            </div>
+            <div class="serviciosFull_container__box__item__boxRight">
+              <img
+                src="images/servicios/extras/itservice6-services-icon3.svg"
+                alt=""
+              />
+              <h3>
+                Reparación <br />
+                de hardware
+              </h3>
+              <div>
+                <p>
+                  <i class="fa-solid fa-arrow-right"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Culpa, perspiciatis enim!
+                </p>
+                <p>
+                  <i class="fa-solid fa-arrow-right"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Culpa, perspiciatis enim!
+                </p>
+                <p>
+                  <i class="fa-solid fa-arrow-right"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Culpa, perspiciatis enim!
+                </p>
+              </div>
+              <a href="#" class="btn btn-base"> Reportar </a>
+            </div>
+          </article>
+          <article class="serviciosFull_container__box__item">
+            <img
+              class="serviciosFull_container__box__item--img"
+              src="images/servicios/extras/itservice6-service-pic3.png"
+              alt=""
+            />
+            <div class="serviciosFull_container__box__item__boxmedium">
+              <div
+                class="serviciosFull_container__box__item__boxmedium__imgBox"
+              >
+                <img src="images/servicios/extras/itservice6-num2.svg" alt="" />
+              </div>
+            </div>
+            <div class="serviciosFull_container__box__item__boxRight">
+              <img
+                src="images/servicios/extras/itservice6-services-icon1.svg"
+                alt=""
+              />
+              <h3>
+                Reparación <br />
+                de hardware
+              </h3>
+              <div>
+                <p>
+                  <i class="fa-solid fa-arrow-right"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Culpa, perspiciatis enim!
+                </p>
+                <p>
+                  <i class="fa-solid fa-arrow-right"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Culpa, perspiciatis enim!
+                </p>
+                <p>
+                  <i class="fa-solid fa-arrow-right"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Culpa, perspiciatis enim!
+                </p>
+              </div>
+              <a href="#" class="btn btn-base"> Reportar </a>
+            </div>
+          </article>
+          <article class="serviciosFull_container__box__item">
+            <img
+              class="serviciosFull_container__box__item--img"
+              src="images/servicios/extras/itservice6-service-pic4.png"
+              alt=""
+            />
+            <div class="serviciosFull_container__box__item__boxmedium">
+              <div
+                class="serviciosFull_container__box__item__boxmedium__imgBox"
+              >
+                <img src="images/servicios/extras/itservice6-num3.svg" alt="" />
+              </div>
+            </div>
+            <div class="serviciosFull_container__box__item__boxRight">
+              <img
+                src="images/servicios/extras/itservice6-services-icon2.svg"
+                alt=""
+              />
+              <h3>
+                Reparación <br />
+                de hardware
+              </h3>
+              <div>
+                <p>
+                  <i class="fa-solid fa-arrow-right"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Culpa, perspiciatis enim!
+                </p>
+                <p>
+                  <i class="fa-solid fa-arrow-right"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Culpa, perspiciatis enim!
+                </p>
+                <p>
+                  <i class="fa-solid fa-arrow-right"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Culpa, perspiciatis enim!
+                </p>
+              </div>
+              <a href="#" class="btn btn-base"> Reportar </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <footer class="footer" id="contact">
+      <div class="footer__superior">
+        <article class="footer__superior__izquierdo">
+          <h2 class="footer__superior__izquierdo--h2">Address</h2>
+          <ul class="footer__superior__izquierdo__ul">
+            <li class="footer__superior__izquierdo__ul--li">Envato</li>
+            <li class="footer__superior__izquierdo__ul--li">
+              Level 13,2 Elizabeth
+            </li>
+            <li class="footer__superior__izquierdo__ul--li">Victoria 3000</li>
+            <li class="footer__superior__izquierdo__ul--li">Australia</li>
+          </ul>
+        </article>
+        <article class="footer__superior__centro">
+          <div class="footer__superior__centro__container">
+            <h2 class="footer__superior__centro__container--h2">Help center</h2>
+            <ul class="footer__superior__centro__container__ul">
+              <li class="footer__superior__centro__container__ul--li">
+                Call us <br />+61(0) 383 766 284
+              </li>
+              <li class="footer__superior__centro__container__ul--li">
+                E-mail <br />noreply@envato.com
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article class="footer__superior__derecho">
+          <div class="footer__superior__derecho__container">
+            <img
+              class="footer__superior__derecho__container--img"
+              src="images/logo.png"
+              alt="imagen del log en el footer"
+            />
+            <p class="footer__superior__derecho__container--parrafo">
+              Sed a dignissim pharetra, sagittis,<span></span>dui fames sit.
+              
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="footer__inferior">
+        <aside class="footer__inferior__txt">
+          <ul class="footer__inferior__txt__ul">
+            <li class="footer__inferior__txt__ul--li">
+              © 2022 Betheme by Muffin group
+            </li>
+            <li class="footer__inferior__txt__ul--li">All Rights Reserved</li>
+            <li class="footer__inferior__txt__ul--li">Powered by <span>WordPress</span> </li>
+            
+          </ul>
+          <p class="wordpres">WordPress</p>
+        </aside>
+        <article class="footer__inferior__btn">
+          <div class="footer__inferior__btn--linea"></div>
+          <div class="footer__inferior__btn--lineb"></div>
+        </article>
+      </div>
+    </footer>
+    <script src="js/codigo.js"></script>
+  </body>
+</html>

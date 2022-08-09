@@ -1,0 +1,47 @@
+//breakpoints
+//todo se maneja por la unidad de emedidad de la fuente
+
+/* 
+1200px / 16px = 75em
+992 / 16 = 62em
+768
+576
+480
+*/
+
+$bp-xlarge:75em;
+$bp-large:63em;
+$bp-medium:48em;
+$bp-small:36em;
+
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    @media only screen and (max-width:$bp-small) {
+        font-size: 50%;
+    }
+}
+
+a,
+a:link,
+a:visited{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    display: block;
+}
