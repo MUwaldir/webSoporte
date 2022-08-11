@@ -925,14 +925,16 @@ img {
   border-radius: 0.5rem;
   cursor: pointer;
 }
-.footer__inferior__btn:hover {
-  background-color: rgba(36, 36, 37, 0.8);
-  box-shadow: 5px 0px 89px -16px rgba(0, 0, 0, 0.71);
-  -webkit-box-shadow: 5px 0px 89px -16px rgba(0, 0, 0, 0.71);
-  -moz-box-shadow: 5px 0px 89px -16px rgba(0, 0, 0, 0.71);
-}
-.footer__inferior__btn:hover .a, .footer__inferior__btn:hover .b {
-  background-color: white;
+@media (hover: hover) {
+  .footer__inferior__btn:hover {
+    background-color: rgba(36, 36, 37, 0.8);
+    box-shadow: 5px 0px 89px -16px rgba(0, 0, 0, 0.71);
+    -webkit-box-shadow: 5px 0px 89px -16px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: 5px 0px 89px -16px rgba(0, 0, 0, 0.71);
+  }
+  .footer__inferior__btn:hover .a, .footer__inferior__btn:hover .b {
+    background-color: white;
+  }
 }
 .footer__inferior__btn--linea {
   position: absolute;

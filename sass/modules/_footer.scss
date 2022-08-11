@@ -187,16 +187,19 @@
             display: flex;
             border-radius: .5rem;
             cursor: pointer;
-            &:hover{
-                background-color: rgba(36, 36, 37, 0.8);
-                box-shadow: 5px 0px 89px -16px rgba(0,0,0,0.71);
-                -webkit-box-shadow: 5px 0px 89px -16px rgba(0,0,0,0.71);
-                -moz-box-shadow: 5px 0px 89px -16px rgba(0,0,0,0.71);
-                .a, .b{
-                    background-color: white;
+            @media (hover:hover) {
+               
+                &:hover{
+                    background-color: rgba(36, 36, 37, 0.8);
+                    box-shadow: 5px 0px 89px -16px rgba(0,0,0,0.71);
+                    -webkit-box-shadow: 5px 0px 89px -16px rgba(0,0,0,0.71);
+                    -moz-box-shadow: 5px 0px 89px -16px rgba(0,0,0,0.71);
+                    .a, .b{
+                        background-color: white;
+                    }
                 }
+                
             }
-            
             &--linea{
                 position: absolute;
                 right: 45%;
